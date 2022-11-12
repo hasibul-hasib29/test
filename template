@@ -1,0 +1,55 @@
+    while(test--){
+    long long b, p, m;
+    cin>>b>>p>>m;
+    
+    long long result {1};
+    while(p){
+        if(p%2==1) 
+         result = (result*b)%m;
+       b = (b*b)%m;  
+       p/=2 ;
+    }    
+
+    
+    
+    // result =  pow(b, p) ;
+    // result = result % m;
+
+     cout<<result<<endl;
+    
+
+    }
+   
+   
+   
+   
+   3
+   12
+   5
+   10
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
